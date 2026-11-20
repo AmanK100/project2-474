@@ -1,4 +1,3 @@
-// Standalone 88-cell Reversi player. No trained data or evaluation weights.
 #include <algorithm>
 #include <array>
 #include <chrono>
@@ -10,7 +9,6 @@ using Bits = __uint128_t;
 using Clock = std::chrono::steady_clock;
 constexpr std::array<int, 8> rows{8, 10, 12, 14, 14, 12, 10, 8};
 constexpr int cellCount = 88;
-// An extra legal move outranks any possible difference in disk count.
 constexpr int mobilityUnit = 2 * cellCount + 1;
 constexpr int maxEstimate = cellCount * mobilityUnit + cellCount;
 constexpr int infinity = maxEstimate + cellCount + 1;
@@ -21,7 +19,7 @@ int count(Bits b) {
     return __builtin_popcountll(static_cast<uint64_t>(b)) +
            __builtin_popcountll(static_cast<uint64_t>(b >> 64));
 }
-int first(Bits b) { // b is nonzero
+int first(Bits b) {
     uint64_t low = static_cast<uint64_t>(b);
     return low ? __builtin_ctzll(low) : 64 + __builtin_ctzll(static_cast<uint64_t>(b >> 64));
 }
@@ -29,13 +27,11 @@ int first(Bits b) { // b is nonzero
 struct Position { Bits us, them; };
 Bits board;
 
-// Each row occupies 16 bits. Empty padding prevents rays wrapping across rows.
 template<int d> Bits shift(Bits x) {
     if constexpr (d > 0) return x << d;
     else return x >> -d;
 }
 
-// Reach through contiguous enemy disks, doubling the covered distance each round.
 template<int d> Bits run(Bits start, Bits enemy) {
     Bits reached = shift<d>(start) & enemy;
     reached |= shift<d>(reached) & enemy;
@@ -46,7 +42,6 @@ template<int d> Bits run(Bits start, Bits enemy) {
         reached |= shift<4*d>(reached) & fours;
         reached |= shift<4*d>(reached) & fours;
     } else {
-        // At most six opposing disks fit between endpoints on different rows.
         reached |= shift<2*d>(reached) & pairs;
     }
     return reached;
@@ -80,8 +75,6 @@ int diskDifference(Position p) {
     return count(p.us) - count(p.them);
 }
 
-// A finished win outranks every unfinished estimate. Within the same
-// outcome, prefer a larger final margin.
 int terminalScore(Position p) {
     int margin = diskDifference(p);
     if (margin > 0) return maxEstimate + margin;
@@ -100,8 +93,6 @@ constexpr unsigned cacheSize = 1u << 19;
 std::array<Entry, cacheSize> cache{};
 
 Entry& entryFor(Position p) {
-    // Use the standard 64-bit FNV offset and prime to mix the four words.
-    // The hash only chooses a slot. Both complete bitboards identify a hit.
     uint64_t hash = 14695981039346656037ULL;
     for (uint64_t word : {uint64_t(p.us), uint64_t(p.us >> 64),
                           uint64_t(p.them), uint64_t(p.them >> 64)}) {
@@ -132,7 +123,6 @@ int minimax(Position p, Bits legal, int depth, int alpha, int beta, int& best) {
         return -minimax(passed, replies, depth, -beta, -alpha, ignored);
     }
     if (depth == 0) {
-        // In the final 22 vacancies use material as the cutoff estimate.
         if (cellCount - count(p.us | p.them) <= 22) return diskDifference(p);
         int mobility = count(legal) - count(moves({p.them, p.us}));
         return mobility * mobilityUnit + diskDifference(p);
@@ -163,7 +153,6 @@ int minimax(Position p, Bits legal, int depth, int alpha, int beta, int& best) {
         alpha = std::max(alpha, value);
     };
 
-    // Move order affects how soon alpha-beta can cut off a branch.
     if (preferred >= 0) {
         Position child = play(p, bit(preferred));
         legal &= ~bit(preferred);
@@ -198,7 +187,7 @@ int minimax(Position p, Bits legal, int depth, int alpha, int beta, int& best) {
              static_cast<uint8_t>(best), bound};
     return value;
 }
-} // namespace
+}
 
 int main() {
     deadline = Clock::now() + timeBudget;
@@ -225,9 +214,7 @@ int main() {
                 minimax(p, legal, depth, -infinity, infinity, candidate);
                 best = candidate;
             }
-        } catch (const Timeout&) {
-            // The last fully searched depth supplied best.
-        }
+        } catch (const Timeout&) {}
     }
     int row = best / 16;
     std::cout << row + 1 << ' ' << best % 16 - (14 - rows[row]) / 2 + 1 << '\n';
