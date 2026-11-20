@@ -1,0 +1,12 @@
+{"kind": "fixed_depth", "passed": 112}
+{"kind": "exact_margin", "passed": 108}
+{"kind": "winning_fixture", "case": "set-9", "move": [8, 8], "value": 1, "wall_s": 2.6561105420005333}
+{"kind": "winning_fixture", "case": "set-13", "move": [3, 2], "value": 1, "wall_s": 0.45776329200089094}
+{"kind": "winning_fixture", "case": "set-14", "move": [6, 2], "value": 0, "wall_s": 2.6557885830006853}
+{"kind": "winning_fixture", "case": "set-17", "move": [1, 6], "value": 1, "wall_s": 2.6546865420023096}
+{"kind": "winning_fixture", "case": "winning-1", "move": [8, 1], "value": 1, "wall_s": 2.6548504999991565}
+{"kind": "winning_fixture", "case": "winning-2", "move": [1, 8], "value": 1, "wall_s": 2.655868208999891}
+{"kind": "winning_fixture", "case": "winning-3", "move": [5, 10], "value": 1, "wall_s": 2.6550597499990545}
+{"kind": "winning_fixture", "case": "winning-4", "move": [2, 9], "value": 1, "wall_s": 2.6548416669975268}
+{"kind": "winning_fixture", "case": "winning-5", "move": [6, 12], "value": 1, "wall_s": 2.6547695419976662}
+{"kind": "winning_fixture", "case": "winning-6", "move": [3, 6], "value": 1, "wall_s": 2.6544981250008277}

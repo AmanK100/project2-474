@@ -1,0 +1,21 @@
+{"case": "assignment-1", "passed": true, "move": "4 6", "wall_s": 2.6551515419996576, "rss_bytes": 26705920}
+{"case": "assignment-2", "passed": true, "move": "4 6", "wall_s": 2.6547154590007267, "rss_bytes": 26705920}
+{"case": "assignment-3", "passed": true, "move": "4 6", "wall_s": 2.655094290999841, "rss_bytes": 26722304}
+{"case": "assignment-4", "passed": true, "move": "4 6", "wall_s": 2.6552686670002004, "rss_bytes": 26705920}
+{"case": "assignment-5", "passed": true, "move": "4 6", "wall_s": 2.6548734169991803, "rss_bytes": 26705920}
+{"case": "random-0-placements", "passed": true, "move": "3 7", "wall_s": 2.6560458749991085, "rss_bytes": 26722304}
+{"case": "random-24-placements", "passed": true, "move": "1 8", "wall_s": 2.65681775000121, "rss_bytes": 26722304}
+{"case": "random-44-placements", "passed": true, "move": "6 5", "wall_s": 2.6557443749989034, "rss_bytes": 26722304}
+{"case": "random-65-placements", "passed": true, "move": "8 6", "wall_s": 2.1520486250010435, "rss_bytes": 26787840}
+{"case": "random-76-placements", "passed": true, "move": "5 12", "wall_s": 0.0056574580012238584, "rss_bytes": 14155776}
+{"case": "long-ray-1", "passed": true, "move": "4 1", "wall_s": 0.004267250002158107, "rss_bytes": 1441792}
+{"case": "long-ray-2", "passed": true, "move": "4 14", "wall_s": 0.0042479579969949555, "rss_bytes": 1441792}
+{"case": "long-ray-3", "passed": true, "move": "1 1", "wall_s": 0.004264874998625601, "rss_bytes": 1441792}
+{"case": "long-ray-4", "passed": true, "move": "1 8", "wall_s": 0.004363500000181375, "rss_bytes": 1441792}
+{"case": "forced-pass", "passed": true, "move": "0 0", "wall_s": 0.004622915999789257, "rss_bytes": 1441792}
+{"case": "full-draw", "passed": true, "move": "0 0", "wall_s": 0.004102167000382906, "rss_bytes": 1441792}
+{"case": "early-terminal", "passed": true, "move": "0 0", "wall_s": 0.004070916002092417, "rss_bytes": 1441792}
+{"case": "short", "passed": true, "move": "", "wall_s": 0.010880792000534711, "rss_bytes": 1425408}
+{"case": "out-of-range", "passed": true, "move": "", "wall_s": 0.004291959001420764, "rss_bytes": 1425408}
+{"case": "non-numeric", "passed": true, "move": "", "wall_s": 0.004874625003139954, "rss_bytes": 1441792}
+{"case": "empty-input", "passed": true, "move": "", "wall_s": 0.005195166999328649, "rss_bytes": 1409024}

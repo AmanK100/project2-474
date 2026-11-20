@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "six_empty": "7 1",
+    "pass": "0 0"
+  },
+  "early-proof": {
+    "six_empty": "7 1",
+    "pass": "0 0"
+  },
+  "midgame-margin": {
+    "six_empty": "7 1",
+    "pass": "0 0"
+  },
+  "midgame-outcome": {
+    "six_empty": "7 1",
+    "pass": "0 0"
+  },
+  "replayed": 20
+}

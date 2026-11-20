@@ -1,0 +1,21 @@
+{"case": "assignment-1", "passed": true, "allowed": [[3, 5], [4, 6], [4, 9], [5, 10], [5, 11], [7, 6]], "code": 0, "stdout": "3 5\n", "stderr": "", "wall_s": 2.654851082999812, "rss_bytes": 26705920}
+{"case": "assignment-2", "passed": true, "allowed": [[3, 5], [4, 6], [4, 9], [5, 10], [5, 11], [7, 6]], "code": 0, "stdout": "3 5\n", "stderr": "", "wall_s": 2.654243459001009, "rss_bytes": 26689536}
+{"case": "assignment-3", "passed": true, "allowed": [[3, 5], [4, 6], [4, 9], [5, 10], [5, 11], [7, 6]], "code": 0, "stdout": "3 5\n", "stderr": "", "wall_s": 2.654153416999179, "rss_bytes": 26705920}
+{"case": "assignment-4", "passed": true, "allowed": [[3, 5], [4, 6], [4, 9], [5, 10], [5, 11], [7, 6]], "code": 0, "stdout": "3 5\n", "stderr": "", "wall_s": 2.6545761250017677, "rss_bytes": 26705920}
+{"case": "assignment-5", "passed": true, "allowed": [[3, 5], [4, 6], [4, 9], [5, 10], [5, 11], [7, 6]], "code": 0, "stdout": "3 5\n", "stderr": "", "wall_s": 2.6559492080014024, "rss_bytes": 26705920}
+{"case": "random-0-placements", "passed": true, "allowed": [[3, 7], [4, 9], [5, 6], [6, 6]], "code": 0, "stdout": "3 7\n", "stderr": "", "wall_s": 2.6540216249995865, "rss_bytes": 26722304}
+{"case": "random-24-placements", "passed": true, "allowed": [[1, 8], [3, 10], [4, 11], [5, 4], [5, 12], [6, 10], [6, 11], [7, 2], [7, 3], [7, 5], [7, 6], [7, 9]], "code": 0, "stdout": "6 11\n", "stderr": "", "wall_s": 2.6546215410016885, "rss_bytes": 26705920}
+{"case": "random-44-placements", "passed": true, "allowed": [[1, 5], [2, 3], [2, 5], [3, 4], [3, 10], [4, 13], [5, 4], [6, 5], [6, 8], [7, 2], [7, 7], [8, 6]], "code": 0, "stdout": "6 8\n", "stderr": "", "wall_s": 2.6545040829987556, "rss_bytes": 26689536}
+{"case": "random-65-placements", "passed": true, "allowed": [[2, 8], [2, 10], [3, 11], [4, 1], [4, 2], [4, 3], [4, 11], [5, 13], [6, 10], [8, 6]], "code": 0, "stdout": "8 6\n", "stderr": "", "wall_s": 1.9761667079983454, "rss_bytes": 26755072}
+{"case": "random-76-placements", "passed": true, "allowed": [[3, 1], [4, 1], [5, 1], [5, 12], [7, 1], [8, 3], [8, 4], [8, 8]], "code": 0, "stdout": "5 12\n", "stderr": "", "wall_s": 0.0052666250012407545, "rss_bytes": 14139392}
+{"case": "long-ray-1", "passed": true, "allowed": [[4, 1]], "code": 0, "stdout": "4 1\n", "stderr": "", "wall_s": 0.003455666999798268, "rss_bytes": 1425408}
+{"case": "long-ray-2", "passed": true, "allowed": [[4, 14]], "code": 0, "stdout": "4 14\n", "stderr": "", "wall_s": 0.004401416001201142, "rss_bytes": 1425408}
+{"case": "long-ray-3", "passed": true, "allowed": [[1, 1]], "code": 0, "stdout": "1 1\n", "stderr": "", "wall_s": 0.0039869169995654374, "rss_bytes": 1425408}
+{"case": "long-ray-4", "passed": true, "allowed": [[1, 8]], "code": 0, "stdout": "1 8\n", "stderr": "", "wall_s": 0.0037819580029463395, "rss_bytes": 1425408}
+{"case": "forced-pass", "passed": true, "allowed": [[0, 0]], "code": 0, "stdout": "0 0\n", "stderr": "", "wall_s": 0.003943208001146559, "rss_bytes": 1425408}
+{"case": "full-draw", "passed": true, "allowed": [[0, 0]], "code": 0, "stdout": "0 0\n", "stderr": "", "wall_s": 0.00495908399898326, "rss_bytes": 1425408}
+{"case": "early-terminal", "passed": true, "allowed": [[0, 0]], "code": 0, "stdout": "0 0\n", "stderr": "", "wall_s": 0.004726208000647603, "rss_bytes": 1425408}
+{"case": "short", "passed": true, "allowed": [], "code": 1, "stdout": "", "stderr": "", "wall_s": 0.0041719580003700685, "rss_bytes": 1409024}
+{"case": "out-of-range", "passed": true, "allowed": [], "code": 1, "stdout": "", "stderr": "", "wall_s": 0.0038953749972279184, "rss_bytes": 1409024}
+{"case": "non-numeric", "passed": true, "allowed": [], "code": 1, "stdout": "", "stderr": "", "wall_s": 0.0034581670006446075, "rss_bytes": 1409024}
+{"case": "empty-input", "passed": true, "allowed": [], "code": 1, "stdout": "", "stderr": "", "wall_s": 0.0036427500017452985, "rss_bytes": 1409024}

@@ -1,0 +1,188 @@
+{
+  "original_files_verified": 109,
+  "source_sha256": "8df9c38c9dac848c57fccbe86ba45c4705996e119bc5705cf4245feb4ca88530",
+  "cli": {
+    "passed": 21,
+    "total": 21,
+    "max_s": 2.6559492080014024,
+    "peak_rss_MiB": 25.515625
+  },
+  "opponents": {
+    "greedy": {
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "failures": 0
+    },
+    "shallow": {
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "failures": 0
+    },
+    "baseline": {
+      "wins": 2,
+      "draws": 0,
+      "losses": 4,
+      "failures": 0
+    }
+  },
+  "match_candidate_turns": 296,
+  "slowest_candidate_match_turn_s": 2.917764,
+  "standard_opening_snapshots": [
+    {
+      "side": 1,
+      "empty": 60,
+      "disks": [
+        22,
+        6
+      ],
+      "mobility": [
+        4,
+        17
+      ]
+    },
+    {
+      "side": 1,
+      "empty": 44,
+      "disks": [
+        29,
+        15
+      ],
+      "mobility": [
+        2,
+        20
+      ]
+    },
+    {
+      "side": 1,
+      "empty": 36,
+      "disks": [
+        28,
+        24
+      ],
+      "mobility": [
+        1,
+        17
+      ]
+    },
+    {
+      "side": 1,
+      "empty": 30,
+      "disks": [
+        31,
+        27
+      ],
+      "mobility": [
+        1,
+        19
+      ]
+    },
+    {
+      "side": 1,
+      "empty": 22,
+      "disks": [
+        30,
+        36
+      ],
+      "mobility": [
+        1,
+        15
+      ]
+    },
+    {
+      "side": 2,
+      "empty": 60,
+      "disks": [
+        26,
+        2
+      ],
+      "mobility": [
+        2,
+        10
+      ]
+    },
+    {
+      "side": 2,
+      "empty": 44,
+      "disks": [
+        42,
+        2
+      ],
+      "mobility": [
+        2,
+        4
+      ]
+    },
+    {
+      "side": 2,
+      "empty": 36,
+      "disks": [
+        40,
+        12
+      ],
+      "mobility": [
+        3,
+        14
+      ]
+    },
+    {
+      "side": 2,
+      "empty": 30,
+      "disks": [
+        42,
+        16
+      ],
+      "mobility": [
+        0,
+        15
+      ]
+    },
+    {
+      "side": 2,
+      "empty": 22,
+      "disks": [
+        36,
+        30
+      ],
+      "mobility": [
+        1,
+        12
+      ]
+    }
+  ],
+  "endgames": {
+    "11\u201313": {
+      "positions": 12,
+      "optimal_outcome": 12,
+      "winnable": 10,
+      "converted": 10,
+      "optimal_margin": 12
+    },
+    "14\u201320": {
+      "positions": 16,
+      "optimal_outcome": 16,
+      "winnable": 10,
+      "converted": 10
+    },
+    "known wins": {
+      "positions": 10,
+      "optimal_outcome": 10,
+      "winnable": 10,
+      "converted": 10
+    },
+    "21\u201324": {
+      "positions": 12,
+      "optimal_outcome": 11,
+      "winnable": 8,
+      "converted": 8,
+      "unresolved": 1
+    }
+  },
+  "audit": {
+    "games": 14,
+    "turns": 152,
+    "unresolved": 0,
+    "proven_drops": 0
+  }
+}

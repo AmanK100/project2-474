@@ -1,0 +1,15 @@
+suite,games,wins,draws,losses,slowest_candidate_seconds
+eligible-a,8,4,0,4,2.655402
+eligible-b,8,4,0,4,2.654925
+greedy,4,4,0,0,2.656508
+heldout-22,12,6,0,6,2.929648
+heldout-opening,2,1,1,0,2.660534
+known-miss,1,0,0,1,0.003746
+margin-full-early,2,1,0,1,2.663863
+margin-full-retry,4,2,0,2,2.656535
+margin-screen,48,22,3,23,0.261563
+minimax-vs-trained,4,2,0,2,2.922694
+outcome-full-early,2,1,0,1,2.669214
+outcome-full-retry,4,2,0,2,2.656131
+outcome-screen,48,24,1,23,0.427580
+shallow,4,2,1,1,2.655534

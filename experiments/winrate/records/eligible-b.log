@@ -1,0 +1,9 @@
+Pair 1, candidate side 1: 55-33, slowest candidate move 1.921s
+Pair 1, candidate side 2: 33-55, slowest candidate move 2.654s
+Pair 2, candidate side 1: 65-23, slowest candidate move 0.651s
+Pair 2, candidate side 2: 23-65, slowest candidate move 2.654s
+Pair 3, candidate side 1: 37-51, slowest candidate move 0.593s
+Pair 3, candidate side 2: 51-37, slowest candidate move 0.299s
+Pair 4, candidate side 1: 64-24, slowest candidate move 2.558s
+Pair 4, candidate side 2: 24-64, slowest candidate move 2.655s
+Candidate: 4 wins, 0 draws, 4 losses

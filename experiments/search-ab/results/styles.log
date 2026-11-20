@@ -1,0 +1,6 @@
+styles control/greedy pair 0: [1, 1]
+styles phase/greedy pair 0: [1, 1]
+styles pvs/greedy pair 0: [1, 1]
+styles control/shallow pair 0: [-1, -1]
+styles phase/shallow pair 0: [1, -1]
+styles pvs/shallow pair 0: [-1, -1]

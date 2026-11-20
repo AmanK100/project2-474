@@ -1,0 +1,21 @@
+{"case": "assignment-1", "passed": true, "move": "3 5", "wall_s": 2.655624875002104, "rss_bytes": 26722304}
+{"case": "assignment-2", "passed": true, "move": "3 5", "wall_s": 2.6560307079998893, "rss_bytes": 26705920}
+{"case": "assignment-3", "passed": true, "move": "3 5", "wall_s": 2.654866167002183, "rss_bytes": 26705920}
+{"case": "assignment-4", "passed": true, "move": "3 5", "wall_s": 2.6549460830028693, "rss_bytes": 26705920}
+{"case": "assignment-5", "passed": true, "move": "3 5", "wall_s": 2.6546983330008516, "rss_bytes": 26705920}
+{"case": "random-0-placements", "passed": true, "move": "3 7", "wall_s": 2.655480000001262, "rss_bytes": 26722304}
+{"case": "random-24-placements", "passed": true, "move": "6 11", "wall_s": 2.6559219589980785, "rss_bytes": 26705920}
+{"case": "random-44-placements", "passed": true, "move": "6 8", "wall_s": 2.6549484159986605, "rss_bytes": 26705920}
+{"case": "random-65-placements", "passed": true, "move": "8 6", "wall_s": 1.0561887080002634, "rss_bytes": 26755072}
+{"case": "random-76-placements", "passed": true, "move": "5 12", "wall_s": 0.005372125000576489, "rss_bytes": 13615104}
+{"case": "long-ray-1", "passed": true, "move": "4 1", "wall_s": 0.00412424999740324, "rss_bytes": 1425408}
+{"case": "long-ray-2", "passed": true, "move": "4 14", "wall_s": 0.004074249998666346, "rss_bytes": 1425408}
+{"case": "long-ray-3", "passed": true, "move": "1 1", "wall_s": 0.00416229199981899, "rss_bytes": 1425408}
+{"case": "long-ray-4", "passed": true, "move": "1 8", "wall_s": 0.004214917000354035, "rss_bytes": 1425408}
+{"case": "forced-pass", "passed": true, "move": "0 0", "wall_s": 0.004372999999759486, "rss_bytes": 1425408}
+{"case": "full-draw", "passed": true, "move": "0 0", "wall_s": 0.00432570900011342, "rss_bytes": 1425408}
+{"case": "early-terminal", "passed": true, "move": "0 0", "wall_s": 0.0040816670007188804, "rss_bytes": 1425408}
+{"case": "short", "passed": true, "move": "", "wall_s": 0.004169874999206513, "rss_bytes": 1409024}
+{"case": "out-of-range", "passed": true, "move": "", "wall_s": 0.004073666998010594, "rss_bytes": 1409024}
+{"case": "non-numeric", "passed": true, "move": "", "wall_s": 0.004358375001174863, "rss_bytes": 1409024}
+{"case": "empty-input", "passed": true, "move": "", "wall_s": 0.004144708000239916, "rss_bytes": 1392640}

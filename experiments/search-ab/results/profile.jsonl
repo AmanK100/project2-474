@@ -1,0 +1,24 @@
+{"kind": "fixed", "case": "assignment", "control": {"score": 4, "square": 37, "depth": 9, "nodes": 640361}, "pvs": {"score": 4, "square": 37, "depth": 9, "nodes": 621065}}
+{"kind": "fixed", "case": "match-44", "control": {"score": 11, "square": 115, "depth": 9, "nodes": 647636}, "pvs": {"score": 11, "square": 115, "depth": 9, "nodes": 579795}}
+{"kind": "fixed", "case": "known-21", "control": {"score": 2, "square": 7, "depth": 9, "nodes": 154587}, "pvs": {"score": 2, "square": 7, "depth": 9, "nodes": 114770}}
+{"kind": "fixed", "case": "fresh-11-1", "control": {"score": 24, "square": 61, "depth": 9, "nodes": 17184}, "pvs": {"score": 24, "square": 61, "depth": 9, "nodes": 15670}}
+{"kind": "fixed", "case": "fresh-0", "control": {"score": 7, "square": 121, "depth": 9, "nodes": 100562}, "pvs": {"score": 7, "square": 121, "depth": 9, "nodes": 85392}}
+{"kind": "fixed", "case": "fresh-1", "control": {"score": 3, "square": 101, "depth": 9, "nodes": 7458138}, "pvs": {"score": 3, "square": 101, "depth": 9, "nodes": 5234019}}
+{"kind": "fixed", "case": "fresh-2", "control": {"score": 25, "square": 27, "depth": 9, "nodes": 2501447}, "pvs": {"score": 25, "square": 27, "depth": 9, "nodes": 1953191}}
+{"kind": "fixed", "case": "fresh-3", "control": {"score": 17, "square": 4, "depth": 9, "nodes": 83290}, "pvs": {"score": 17, "square": 4, "depth": 9, "nodes": 56188}}
+{"kind": "fixed", "case": "fresh-4", "control": {"score": 5, "square": 102, "depth": 9, "nodes": 401837}, "pvs": {"score": 5, "square": 102, "depth": 9, "nodes": 308735}}
+{"kind": "fixed", "case": "fresh-5", "control": {"score": 15, "square": 19, "depth": 9, "nodes": 15655530}, "pvs": {"score": 15, "square": 19, "depth": 9, "nodes": 11569861}}
+{"kind": "fixed", "case": "fresh-6", "control": {"score": 1, "square": 119, "depth": 9, "nodes": 477252}, "pvs": {"score": 1, "square": 119, "depth": 9, "nodes": 383095}}
+{"kind": "fixed", "case": "fresh-7", "control": {"score": 9, "square": 33, "depth": 9, "nodes": 675713}, "pvs": {"score": 9, "square": 33, "depth": 9, "nodes": 461190}}
+{"kind": "fixed", "case": "fresh-8", "control": {"score": 11, "square": 66, "depth": 9, "nodes": 335512}, "pvs": {"score": 11, "square": 66, "depth": 9, "nodes": 309067}}
+{"kind": "fixed", "case": "fresh-9", "control": {"score": 3, "square": 5, "depth": 9, "nodes": 1691514}, "pvs": {"score": 3, "square": 5, "depth": 9, "nodes": 1126462}}
+{"kind": "fixed", "case": "fresh-10", "control": {"score": 3, "square": 81, "depth": 9, "nodes": 675856}, "pvs": {"score": 3, "square": 81, "depth": 9, "nodes": 509924}}
+{"kind": "fixed", "case": "fresh-11", "control": {"score": 3, "square": 115, "depth": 9, "nodes": 281821}, "pvs": {"score": 3, "square": 115, "depth": 9, "nodes": 224918}}
+{"kind": "fixed", "case": "fresh-12", "control": {"score": 5, "square": 100, "depth": 9, "nodes": 870343}, "pvs": {"score": 5, "square": 100, "depth": 9, "nodes": 500925}}
+{"kind": "fixed", "case": "fresh-13", "control": {"score": 9, "square": 119, "depth": 9, "nodes": 533545}, "pvs": {"score": 9, "square": 119, "depth": 9, "nodes": 425004}}
+{"kind": "fixed", "case": "fresh-14", "control": {"score": 11, "square": 7, "depth": 9, "nodes": 1574018}, "pvs": {"score": 11, "square": 7, "depth": 9, "nodes": 937213}}
+{"kind": "fixed", "case": "fresh-15", "control": {"score": 27, "square": 120, "depth": 9, "nodes": 580347}, "pvs": {"score": 27, "square": 120, "depth": 9, "nodes": 421615}}
+{"kind": "timed", "case": "assignment", "control": {"score": 4, "square": 37, "depth": 11, "nodes": 7027921}, "pvs": {"score": 4, "square": 37, "depth": 11, "nodes": 5447081}, "phase": {"score": -357, "square": 53, "depth": 12, "nodes": 11871798}}
+{"kind": "timed", "case": "match-44", "control": {"score": 6, "square": 25, "depth": 12, "nodes": 18346106}, "pvs": {"score": 6, "square": 25, "depth": 12, "nodes": 16804227}, "phase": {"score": 2650, "square": 73, "depth": 11, "nodes": 11020682}}
+{"kind": "timed", "case": "known-21", "control": {"score": 4, "square": 7, "depth": 15, "nodes": 15636667}, "pvs": {"score": -7, "square": 7, "depth": 16, "nodes": 18126480}, "phase": {"score": 4, "square": 7, "depth": 15, "nodes": 15636667}}
+{"kind": "timed", "case": "fresh-11-1", "control": {"score": 118, "square": 61, "depth": 11, "nodes": 75086}, "pvs": {"score": 118, "square": 61, "depth": 11, "nodes": 72072}, "phase": {"score": 15694, "square": 61, "depth": 11, "nodes": 75086}}

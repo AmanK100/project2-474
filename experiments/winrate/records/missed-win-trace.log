@@ -1,0 +1,35 @@
+baseline
+completed depth 1 best 3
+completed depth 2 best 3
+completed depth 3 best 58
+completed depth 4 best 58
+completed depth 5 best 58
+completed depth 6 best 58
+completed depth 7 best 58
+completed depth 8 best 58
+completed depth 9 best 58
+completed depth 10 best 58
+completed depth 11 best 58
+completed depth 12 best 58
+completed depth 13 best 58
+completed depth 14 best 58
+completed depth 15 best 58
+completed depth 16 best 58
+starting proof at depth 16
+testing for draw or better, square 58
+draw probe returned 20002
+testing for draw or better, square 3
+output 1 1
+early-proof
+completed depth 1 best 3
+completed depth 2 best 3
+completed depth 3 best 58
+completed depth 4 best 58
+completed depth 5 best 58
+completed depth 6 best 58
+completed depth 7 best 58
+starting proof at depth 7
+testing for draw or better, square 58
+draw probe returned 20002
+testing for draw or better, square 3
+output 1 1

@@ -1,0 +1,214 @@
+{
+  "holdout-phase-control": {
+    "pairs": 30,
+    "wins": 44,
+    "draws": 1,
+    "losses": 15,
+    "paired_advantage": 29,
+    "pair_scores": {
+      "0": 15,
+      "1": 1,
+      "2": 14
+    },
+    "p": 6.103515625e-05,
+    "bracket_net_wins": {
+      "early": 18,
+      "middle": 11,
+      "late": 0
+    },
+    "forfeits": [],
+    "peak_s": 2.772141,
+    "candidate_turns": 1418
+  },
+  "holdout-pvs-control": {
+    "pairs": 30,
+    "wins": 29,
+    "draws": 1,
+    "losses": 30,
+    "paired_advantage": -1,
+    "pair_scores": {
+      "-2": 1,
+      "0": 28,
+      "1": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 1,
+      "middle": -2,
+      "late": 0
+    },
+    "forfeits": [],
+    "peak_s": 2.741868,
+    "candidate_turns": 1324
+  },
+  "standard-phase-baseline": {
+    "pairs": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "paired_advantage": -2,
+    "pair_scores": {
+      "-2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": -2
+    },
+    "forfeits": [],
+    "peak_s": 2.671246,
+    "candidate_turns": 81
+  },
+  "standard-phase-control": {
+    "pairs": 1,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "paired_advantage": 2,
+    "pair_scores": {
+      "2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 2
+    },
+    "forfeits": [],
+    "peak_s": 2.825123,
+    "candidate_turns": 93
+  },
+  "standard-pvs-baseline": {
+    "pairs": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "paired_advantage": -2,
+    "pair_scores": {
+      "-2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": -2
+    },
+    "forfeits": [],
+    "peak_s": 2.664318,
+    "candidate_turns": 76
+  },
+  "standard-pvs-control": {
+    "pairs": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 1,
+    "paired_advantage": 0,
+    "pair_scores": {
+      "0": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 0
+    },
+    "forfeits": [],
+    "peak_s": 2.65999,
+    "candidate_turns": 84
+  },
+  "styles-control-greedy": {
+    "pairs": 1,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "paired_advantage": 2,
+    "pair_scores": {
+      "2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 2
+    },
+    "forfeits": [],
+    "peak_s": 2.656212,
+    "candidate_turns": 70
+  },
+  "styles-control-shallow": {
+    "pairs": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "paired_advantage": -2,
+    "pair_scores": {
+      "-2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": -2
+    },
+    "forfeits": [],
+    "peak_s": 2.671203,
+    "candidate_turns": 59
+  },
+  "styles-phase-greedy": {
+    "pairs": 1,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "paired_advantage": 2,
+    "pair_scores": {
+      "2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 2
+    },
+    "forfeits": [],
+    "peak_s": 2.673278,
+    "candidate_turns": 73
+  },
+  "styles-phase-shallow": {
+    "pairs": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 1,
+    "paired_advantage": 0,
+    "pair_scores": {
+      "0": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 0
+    },
+    "forfeits": [],
+    "peak_s": 2.661109,
+    "candidate_turns": 59
+  },
+  "styles-pvs-greedy": {
+    "pairs": 1,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "paired_advantage": 2,
+    "pair_scores": {
+      "2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": 2
+    },
+    "forfeits": [],
+    "peak_s": 2.712598,
+    "candidate_turns": 68
+  },
+  "styles-pvs-shallow": {
+    "pairs": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "paired_advantage": -2,
+    "pair_scores": {
+      "-2": 1
+    },
+    "p": 1.0,
+    "bracket_net_wins": {
+      "early": -2
+    },
+    "forfeits": [],
+    "peak_s": 2.661842,
+    "candidate_turns": 59
+  }
+}

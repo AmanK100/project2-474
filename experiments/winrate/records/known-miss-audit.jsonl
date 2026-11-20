@@ -1,0 +1,1 @@
+{"file": "known-miss.jsonl", "pair": 1, "candidate_side": 1, "loser": 1, "first_proven_drop": {"empty": 6, "row": 2, "column": 5, "played": -1, "best": 1}, "checks": [{"empty": 6, "row": 2, "column": 5, "played": -1, "best": 1}, {"empty": 4, "row": 2, "column": 10, "played": -1, "best": -1}]}

@@ -1,0 +1,6 @@
+holdout phase/control pair 1: [1, 1]
+holdout phase/control pair 0: [1, 1]
+holdout pvs/control pair 0: [-1, 1]
+holdout phase/control pair 2: [1, -1]
+holdout pvs/control pair 1: [1, -1]
+holdout pvs/control pair 2: [1, -1]

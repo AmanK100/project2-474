@@ -1,0 +1,9 @@
+44634 positions in 3194 sampled games
+baseline phase 1 held-out outcome accuracy 0.8336 (n=4453)
+margin phase 1 held-out outcome accuracy 0.8316 (n=4453)
+baseline phase 2 held-out outcome accuracy 0.7523 (n=4465)
+margin phase 2 held-out outcome accuracy 0.7552 (n=4465)
+baseline phase 1 held-out outcome accuracy 0.8336 (n=4453)
+outcome phase 1 held-out outcome accuracy 0.8309 (n=4453)
+baseline phase 2 held-out outcome accuracy 0.7523 (n=4465)
+outcome phase 2 held-out outcome accuracy 0.7563 (n=4465)
